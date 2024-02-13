@@ -1,7 +1,7 @@
 const button = document.getElementById("btn");
-const audio2 = document.getElementById("myAudio2");
+const audio = document.getElementById("myAudio");
 
 button.addEventListener("click", function(event) {
         // Play the audio
-        audio2.play();
+        audio.play();
       });
